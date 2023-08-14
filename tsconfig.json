@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // https://github.com/typescript-eslint/typescript-eslint/issues/6965
+    // "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "sourceMap": true,
+    "strict": true,
+
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "./target/",
+    "target": "ES2022"
+  },
+  "files": ["./index.ts", "tests.ts"]
+}
