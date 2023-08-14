@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-require-object-type-annotations",
+  "version": "0.0.1",
+  "main": "./target/index.js",
+  "files": [
+    "./target/"
+  ],
+  "scripts": {
+    "compile": "tsc",
+    "format": "prettier --write .",
+    "prepublish": "npm run compile",
+    "test": "npm run compile && node ./target/tests.js"
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "5",
+    "tsutils": "^3.21.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.2",
+    "@types/node": "^20.5.0",
+    "@typescript-eslint/parser": "5",
+    "eslint": "^8.47.0",
+    "prettier": "^3.0.1",
+    "release-it": "^16.1.5"
+  }
+}
