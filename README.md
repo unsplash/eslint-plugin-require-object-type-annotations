@@ -1,5 +1,7 @@
 # require-object-type-annotations
 
+Rationale: https://oliverjash.me/2023/prefer-explicit-type-annotations-for-objects
+
 ## Installation
 
 ```sh
